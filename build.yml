@@ -1,0 +1,23 @@
+sdkversion: 3.3.3
+name: Signature
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.1
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.signature
+  BundleURLScheme: signature
+wp:
+  productid: '2ce3cd70-bc4f-012f-2a5b-1040f37b2b30'
+symbian:
+  uid: '0xe0610d68'
+android:
+  version: 2.3.3
+
+extensions: ["json", "another-extension"]
